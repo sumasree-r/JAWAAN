@@ -1,0 +1,167 @@
+/* src/components/HomePage.css */
+/* In HomePage.css */
+
+.header-title {
+  color: white;
+  background-color: rgb(210, 236, 247);
+  /*padding: 20px;*/
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0; /* Remove bottom margin */
+  padding-bottom: 0;
+}
+
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-bar {
+    background-color: #333;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .menu-bar a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    border: 1px solid white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: 10px; /* Add margin between menu items */
+    position: relative;
+  }
+  
+  .menu-bar a:hover {
+    background-color: yellowgreen;
+    color: #fff;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  /* Dropdown Styles */
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    background-color: yellowgreen;    /* #333*/
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 1;
+    
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Style the dropdown links */
+  .dropdown-content a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    margin: 5px; /* Reset margin */
+    padding: 10px; /* Reset padding */
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(221, 165, 60);
+  }
+
+
+  .image-section {
+    margin-top: 10px;
+    margin-bottom: 0; /* Remove bottom margin */
+    padding-bottom: 0; /* Remove bottom padding */
+    
+  }
+  
+  .image-section img {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    height: auto;
+    
+    
+  }
+  
+  /* .image-section img:hover {
+    transform: scale(1.1);
+  }
+   */
+
+   /* In HomePage.css */
+
+.transition-box {
+  width: 50%; 
+  width: 400px; 
+  height: 300px;
+  background-color: rgb(139, 139, 187);
+  margin: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 10px;
+ }  
+
+.transition-boxes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+  
+
+  } 
+
+.transition-box:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  background-color: rgb(124, 124, 179);
+} 
+
+/* In HomePage.css */
+
+
+
+
+
+
+
+
+
+/*===========================================================
+/* .transition-box {
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+  background: linear-gradient(to bottom right, #68689b, #404087);
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.transition-box:hover {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(to bottom right, #7c7cb3, #514f9c);
+}
+
+.transition-boxes {
+  display: flex;
+  justify-content: space-around; 
+  flex-wrap: wrap;
+} */

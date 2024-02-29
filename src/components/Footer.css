@@ -1,0 +1,24 @@
+/* Footer.css */
+.footer {
+    background-color: rgb(177, 175, 175);
+    color: rgb(139, 139, 187);
+    text-align: center;
+    padding: 10px;
+    height: 400px; /* Set the desired height */
+    width: 100%; /* Set the width to 100% for full width */
+    margin-top: 0cap;
+}
+  
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-links a {
+    color: white; /* Set the link text color */
+    text-decoration: none; /* Remove underlines from links */
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }

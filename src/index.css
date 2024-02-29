@@ -1,0 +1,15 @@
+.menu-bar li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.image-section {
+  margin-top: 20px;
+}
+
+.image-section img {
+  width: 100%;
+  max-width: 800px; /* Adjust as needed */
+  height: auto;
+}
+
